@@ -4,6 +4,7 @@ import EnrollmentBanner from '@/components/EnrollmentBanner';
 import HeroSection from '@/components/HeroSection';
 import BenefitsSection from '@/components/BenefitsSection';
 import CourseFeatures from '@/components/CourseFeatures';
+import CourseOutline from '@/components/CourseOutline';
 import Testimonials from '@/components/Testimonials';
 import FAQ from '@/components/FAQ';
 import CallToAction from '@/components/CallToAction';
@@ -19,6 +20,7 @@ const Home: React.FC = () => {
         <HeroSection />
         <BenefitsSection />
         <CourseFeatures />
+        <CourseOutline />
         <Testimonials />
         <FAQ />
         <CallToAction />
