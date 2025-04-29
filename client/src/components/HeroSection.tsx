@@ -1,16 +1,17 @@
 import React from 'react';
+import homeHero from '@assets/home-hero.svg';
 
 const HeroSection: React.FC = () => {
   return (
     <section className="relative overflow-hidden">
       <div className="absolute inset-0 z-0">
         <img 
-          src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1440&h=600&q=80" 
-          alt="Medical legal professional" 
-          className="w-full h-full object-cover object-top"
+          src={homeHero}
+          alt="LegalMedics Training Hero" 
+          className="w-full h-full object-cover"
           loading="eager"
         />
-        <div className="absolute inset-0 bg-gradient-to-r from-blue-900/90 to-transparent"></div>
+        <div className="absolute inset-0 bg-gradient-to-r from-blue-900/80 to-transparent"></div>
       </div>
       
       <div className="container mx-auto px-4 py-20 md:py-32 relative z-10">

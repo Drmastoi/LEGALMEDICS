@@ -59,12 +59,21 @@ const Blog: React.FC = () => {
     <div className="min-h-screen bg-white font-sans">
       <Header />
       <main>
-        <div className="bg-blue-50 py-16">
-          <div className="container mx-auto px-4">
-            <h1 className="text-4xl font-bold text-center text-gray-800 mb-4">
+        <div className="py-16 relative overflow-hidden">
+          <div className="absolute inset-0 z-0">
+            <img 
+              src={require('@assets/blog-hero.svg')} 
+              alt="Blog Hero Background" 
+              className="w-full h-full object-cover"
+            />
+            <div className="absolute inset-0 bg-gradient-to-b from-transparent to-white/60"></div>
+          </div>
+          
+          <div className="container mx-auto px-4 relative z-10">
+            <h1 className="text-4xl font-bold text-center text-white mb-4 text-shadow">
               Medico-Legal Insights
             </h1>
-            <p className="text-xl text-center text-gray-600 max-w-3xl mx-auto">
+            <p className="text-xl text-center text-white text-shadow max-w-3xl mx-auto">
               Expert articles, news, and resources for medical professionals in the medico-legal field
             </p>
           </div>
