@@ -62,9 +62,9 @@ const Blog: React.FC = () => {
         <div className="py-16 relative overflow-hidden">
           <div className="absolute inset-0 z-0">
             <img 
-              src={require('@assets/blog-hero.svg')} 
-              alt="Blog Hero Background" 
-              className="w-full h-full object-cover"
+              src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&h=400&q=80"
+              alt="Medical legal professional" 
+              className="w-full h-60 object-cover object-top"
             />
             <div className="absolute inset-0 bg-gradient-to-b from-transparent to-white/60"></div>
           </div>
