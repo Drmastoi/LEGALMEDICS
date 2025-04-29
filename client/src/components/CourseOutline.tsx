@@ -82,17 +82,41 @@ const CourseOutline: React.FC = () => {
           </div>
           
           <div className="bg-blue-50 p-6 mt-8 rounded-lg">
-            <h3 className="text-xl font-bold text-blue-800 mb-4">Certification Process</h3>
+            <h3 className="text-xl font-bold text-blue-800 mb-4">MedCo Certification Process</h3>
             <p className="text-gray-700 mb-4">
               Upon completion of the course, participants will:
             </p>
             <ul className="list-disc pl-5 space-y-2 text-gray-600">
               <li>Complete a comprehensive assessment of knowledge</li>
-              <li>Submit sample reports for evaluation</li>
-              <li>Receive personalized feedback from experienced practitioners</li>
-              <li>Gain MedCo accreditation certification</li>
+              <li>Submit sample reports for evaluation by MedCo standards</li>
+              <li>Receive personalized feedback from experienced MedCo practitioners</li>
+              <li>Gain MedCo accreditation certification (DME status)</li>
               <li>Receive ongoing support for initial report submissions</li>
+              <li>Be ready to register on the MedCo portal as a medical expert</li>
             </ul>
+          </div>
+          
+          <div className="mt-8 bg-white rounded-lg shadow-lg overflow-hidden">
+            <div className="p-6 border-b border-gray-200">
+              <h3 className="text-xl font-bold text-gray-800 mb-4">About MedCo</h3>
+              <p className="text-gray-600 mb-4">
+                MedCo is the official body that manages the accreditation and regulation of medical experts providing initial medical reports in soft tissue injury claims brought under the Ministry of Justice's Pre-Action Protocol for Low Value Personal Injury Claims in Road Traffic Accidents.
+              </p>
+              <p className="text-gray-600">
+                Our course is fully compliant with MedCo's training requirements for medical professionals seeking to become accredited medical experts (DMEs - Direct Medical Experts) in the preparation of medico-legal reports for whiplash-associated disorders (WAD) and soft tissue injuries.
+              </p>
+            </div>
+            
+            <div className="p-6">
+              <h3 className="text-xl font-bold text-gray-800 mb-4">MedCo Registration Benefits</h3>
+              <ul className="list-disc pl-5 space-y-2 text-gray-600">
+                <li>Access to a steady stream of medico-legal instructions through the MedCo portal</li>
+                <li>Recognition as an accredited expert in soft tissue injury assessment</li>
+                <li>Enhanced professional credibility in the medico-legal sector</li>
+                <li>Opportunity to develop a lucrative complementary practice to clinical work</li>
+                <li>Clear framework for conducting assessments and writing reports</li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
