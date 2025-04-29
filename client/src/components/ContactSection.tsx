@@ -184,8 +184,8 @@ const ContactSection: React.FC = () => {
                     <h4 className="font-semibold">Our Location</h4>
                     <p className="text-gray-600">
                       LegalMedics Training Centre<br />
-                      111 Harley Street<br />
-                      London, W1G 6AB
+                      167 Union Street<br />
+                      Oldham, OL1 1TD
                     </p>
                   </div>
                 </div>
@@ -210,7 +210,7 @@ const ContactSection: React.FC = () => {
                   <div>
                     <h4 className="font-semibold">Call Us</h4>
                     <p className="text-gray-600">
-                      <a href="tel:+442071234567" className="hover:text-blue-600">+44 (0) 20 7123 4567</a><br />
+                      <a href="tel:+443333395773" className="hover:text-blue-600">+44 (0) 333 339 5773</a><br />
                       Mon-Fri: 9:00 AM - 5:30 PM
                     </p>
                   </div>
