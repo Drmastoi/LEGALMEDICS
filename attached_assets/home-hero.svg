@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="400" viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1e40af;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#3b82f6;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="grad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:0.1" />
+      <stop offset="100%" style="stop-color:#ffffff;stop-opacity:0.3" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="400" fill="url(#grad1)"/>
+  
+  <!-- Decorative Elements -->
+  <circle cx="100" cy="320" r="80" fill="url(#grad2)" opacity="0.6"/>
+  <circle cx="700" cy="100" r="120" fill="url(#grad2)" opacity="0.5"/>
+  <circle cx="400" cy="250" r="60" fill="url(#grad2)" opacity="0.4"/>
+  
+  <!-- Medical Cross Symbol -->
+  <g transform="translate(400, 150) scale(0.8)">
+    <rect x="-15" y="-60" width="30" height="120" rx="5" fill="white" opacity="0.9"/>
+    <rect x="-60" y="-15" width="120" height="30" rx="5" fill="white" opacity="0.9"/>
+  </g>
+  
+  <!-- Scales of Justice Symbol -->
+  <g transform="translate(550, 170) scale(0.7)">
+    <!-- Base -->
+    <rect x="-10" y="70" width="20" height="50" rx="2" fill="white" opacity="0.9"/>
+    <rect x="-40" y="120" width="80" height="10" rx="2" fill="white" opacity="0.9"/>
+    
+    <!-- Beam -->
+    <rect x="-80" y="60" width="160" height="8" rx="2" fill="white" opacity="0.9"/>
+    
+    <!-- Pans -->
+    <circle cx="-70" cy="85" r="25" stroke="white" stroke-width="3" fill="none" opacity="0.9"/>
+    <circle cx="70" cy="85" r="25" stroke="white" stroke-width="3" fill="none" opacity="0.9"/>
+    
+    <!-- Chains -->
+    <line x1="-80" y1="64" x2="-70" y2="85" stroke="white" stroke-width="2" opacity="0.9"/>
+    <line x1="80" y1="64" x2="70" y2="85" stroke="white" stroke-width="2" opacity="0.9"/>
+  </g>
+  
+  <!-- Abstract Document/Report -->
+  <g transform="translate(250, 180) scale(0.7)">
+    <rect x="-40" y="-50" width="80" height="100" rx="5" fill="white" opacity="0.9"/>
+    <line x1="-25" y1="-30" x2="25" y2="-30" stroke="#3b82f6" stroke-width="4"/>
+    <line x1="-25" y1="-15" x2="15" y2="-15" stroke="#3b82f6" stroke-width="4"/>
+    <line x1="-25" y1="0" x2="25" y2="0" stroke="#3b82f6" stroke-width="4"/>
+    <line x1="-25" y1="15" x2="20" y2="15" stroke="#3b82f6" stroke-width="4"/>
+    <line x1="-25" y1="30" x2="10" y2="30" stroke="#3b82f6" stroke-width="4"/>
+  </g>
+  
+  <!-- Abstract Wave Pattern -->
+  <path d="M0,350 C50,330 100,375 150,355 C200,335 250,380 300,360 C350,340 400,385 450,365 C500,345 550,390 600,370 C650,350 700,395 750,375 C800,355 800,400 800,400 L0,400 Z" fill="#1e40af" opacity="0.7"/>
+</svg>
