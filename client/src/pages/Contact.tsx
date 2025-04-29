@@ -33,14 +33,17 @@ const Contact: React.FC = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
               <div>
                 <h2 className="text-2xl font-bold text-gray-800 mb-6">Our Location</h2>
-                <div className="bg-gray-200 w-full h-96 rounded-lg mb-6">
-                  {/* This would be replaced with an actual map component */}
-                  <div className="w-full h-full flex items-center justify-center text-gray-500">
-                    <p className="text-center">
-                      Interactive map would be displayed here<br />
-                      167 Union Street, Oldham, OL1 1TD
-                    </p>
-                  </div>
+                <div className="w-full h-96 rounded-lg mb-6 overflow-hidden shadow-lg">
+                  <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2371.7016503263846!2d-2.105553884078761!3d53.54071497225145!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487bb90dcde8580b%3A0xca55c47bd80ed4fb!2s167%20Union%20St%2C%20Oldham%20OL1%201TD%2C%20UK!5e0!3m2!1sen!2sus!4v1682777793463!5m2!1sen!2sus" 
+                    width="100%" 
+                    height="100%" 
+                    style={{ border: 0 }} 
+                    allowFullScreen={true} 
+                    loading="lazy" 
+                    referrerPolicy="no-referrer-when-downgrade"
+                    title="LegalMedics Office Location"
+                  />
                 </div>
                 
                 <div className="mb-8">
