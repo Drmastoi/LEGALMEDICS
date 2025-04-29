@@ -1,13 +1,13 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from '@/components/ui/card';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
-// Use regular image path
-import practiceHero from "../../../attached_assets/practice-hero.svg";
 
 const Practice: React.FC = () => {
+  const [activeTab, setActiveTab] = useState("practice-cases");
+  
   return (
     <div className="min-h-screen bg-white font-sans">
       <Header />
@@ -33,11 +33,30 @@ const Practice: React.FC = () => {
         </div>
 
         <div className="container mx-auto px-4 py-16">
-          <Tabs defaultValue="practice-cases">
+          <Tabs 
+            defaultValue="practice-cases" 
+            value={activeTab} 
+            onValueChange={setActiveTab}
+          >
             <TabsList className="grid w-full grid-cols-3 mb-8">
-              <TabsTrigger value="practice-cases">Practice Cases</TabsTrigger>
-              <TabsTrigger value="templates">Report Templates</TabsTrigger>
-              <TabsTrigger value="quizzes">Assessment Quizzes</TabsTrigger>
+              <TabsTrigger 
+                value="practice-cases" 
+                onClick={() => setActiveTab("practice-cases")}
+              >
+                Practice Cases
+              </TabsTrigger>
+              <TabsTrigger 
+                value="templates" 
+                onClick={() => setActiveTab("templates")}
+              >
+                Report Templates
+              </TabsTrigger>
+              <TabsTrigger 
+                value="quizzes" 
+                onClick={() => setActiveTab("quizzes")}
+              >
+                Assessment Quizzes
+              </TabsTrigger>
             </TabsList>
             
             <TabsContent value="practice-cases">

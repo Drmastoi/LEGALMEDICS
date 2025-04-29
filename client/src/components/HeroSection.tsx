@@ -1,12 +1,11 @@
 import React from 'react';
-import homeHero from '@assets/home-hero.svg';
 
 const HeroSection: React.FC = () => {
   return (
     <section className="relative overflow-hidden">
       <div className="absolute inset-0 z-0">
         <img 
-          src={homeHero}
+          src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?ixlib=rb-4.0.3&auto=format&fit=crop&w=2000&q=80"
           alt="LegalMedics Training Hero" 
           className="w-full h-full object-cover"
           loading="eager"
