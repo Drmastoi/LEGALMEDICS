@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="400" viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#7e22ce;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#a855f7;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="grad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:0.1" />
+      <stop offset="100%" style="stop-color:#ffffff;stop-opacity:0.3" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="400" fill="url(#grad1)"/>
+  
+  <!-- Decorative Elements -->
+  <circle cx="100" cy="320" r="80" fill="url(#grad2)" opacity="0.5"/>
+  <circle cx="670" cy="80" r="60" fill="url(#grad2)" opacity="0.6"/>
+  <circle cx="400" cy="150" r="30" fill="url(#grad2)" opacity="0.4"/>
+  
+  <!-- Document/Blog Symbol -->
+  <g transform="translate(200, 200)">
+    <!-- Document -->
+    <rect x="-70" y="-80" width="140" height="160" rx="8" fill="white" opacity="0.9"/>
+    
+    <!-- Document Content Lines -->
+    <rect x="-50" y="-60" width="100" height="10" rx="2" fill="#a855f7" opacity="0.7"/>
+    <rect x="-50" y="-40" width="80" height="6" rx="2" fill="#7e22ce" opacity="0.7"/>
+    <rect x="-50" y="-30" width="90" height="6" rx="2" fill="#7e22ce" opacity="0.7"/>
+    <rect x="-50" y="-20" width="70" height="6" rx="2" fill="#7e22ce" opacity="0.7"/>
+    
+    <rect x="-50" y="0" width="100" height="8" rx="2" fill="#a855f7" opacity="0.7"/>
+    <rect x="-50" y="20" width="80" height="6" rx="2" fill="#7e22ce" opacity="0.7"/>
+    <rect x="-50" y="30" width="90" height="6" rx="2" fill="#7e22ce" opacity="0.7"/>
+    <rect x="-50" y="40" width="75" height="6" rx="2" fill="#7e22ce" opacity="0.7"/>
+    
+    <!-- Image Placeholder -->
+    <rect x="-50" y="-105" width="100" height="60" rx="4" fill="#a855f7" opacity="0.2" stroke="#a855f7" stroke-width="2"/>
+    <circle cx="0" cy="-75" r="15" fill="#a855f7" opacity="0.5"/>
+    <path d="M-40,-65 L-30,-75 L-20,-65 L-10,-85 L30,-65 L40,-75 L50,-65" stroke="#a855f7" stroke-width="2" fill="none"/>
+  </g>
+  
+  <!-- Pen/Writing Symbol -->
+  <g transform="translate(400, 200) rotate(-30)">
+    <!-- Pen Body -->
+    <rect x="-12" y="-80" width="24" height="160" rx="12" fill="white" opacity="0.9"/>
+    
+    <!-- Pen Tip -->
+    <path d="M0,80 L-12,100 L12,100 Z" fill="#7e22ce" opacity="0.9"/>
+    
+    <!-- Pen Grip -->
+    <rect x="-12" y="-20" width="24" height="40" rx="4" fill="#a855f7" opacity="0.7"/>
+    <line x1="-12" y1="-10" x2="12" y2="-10" stroke="white" stroke-width="2"/>
+    <line x1="-12" y1="0" x2="12" y2="0" stroke="white" stroke-width="2"/>
+    <line x1="-12" y1="10" x2="12" y2="10" stroke="white" stroke-width="2"/>
+  </g>
+  
+  <!-- Speech Bubble -->
+  <g transform="translate(600, 200)">
+    <path d="M-70,-50 
+             C-70,-70 -50,-80 -30,-80 
+             L70,-80 
+             C90,-80 110,-70 110,-50 
+             L110,30 
+             C110,50 90,60 70,60 
+             L20,60 
+             L0,90 
+             L-20,60 
+             L-30,60 
+             C-50,60 -70,50 -70,30 Z" 
+          fill="white" opacity="0.9"/>
+    
+    <!-- Text Lines -->
+    <line x1="-40" y1="-50" x2="80" y2="-50" stroke="#7e22ce" stroke-width="4" stroke-linecap="round"/>
+    <line x1="-40" y1="-30" x2="60" y2="-30" stroke="#7e22ce" stroke-width="4" stroke-linecap="round"/>
+    <line x1="-40" y1="-10" x2="80" y2="-10" stroke="#7e22ce" stroke-width="4" stroke-linecap="round"/>
+    <line x1="-40" y1="10" x2="40" y2="10" stroke="#7e22ce" stroke-width="4" stroke-linecap="round"/>
+    <line x1="-40" y1="30" x2="60" y2="30" stroke="#7e22ce" stroke-width="4" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Abstract Wave Pattern -->
+  <path d="M0,350 C50,330 100,375 150,355 C200,335 250,380 300,360 C350,340 400,385 450,365 C500,345 550,390 600,370 C650,350 700,395 750,375 C800,355 800,400 800,400 L0,400 Z" fill="#7e22ce" opacity="0.7"/>
+</svg>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="400" viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#065f46;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#10b981;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="grad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:0.1" />
+      <stop offset="100%" style="stop-color:#ffffff;stop-opacity:0.3" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="400" fill="url(#grad1)"/>
+  
+  <!-- Decorative Elements -->
+  <circle cx="700" cy="320" r="100" fill="url(#grad2)" opacity="0.5"/>
+  <circle cx="120" cy="80" r="70" fill="url(#grad2)" opacity="0.6"/>
+  <circle cx="400" cy="150" r="40" fill="url(#grad2)" opacity="0.4"/>
+  
+  <!-- Diploma/Certificate -->
+  <g transform="translate(400, 200)">
+    <!-- Certificate -->
+    <rect x="-100" y="-70" width="200" height="140" rx="5" fill="white" opacity="0.9"/>
+    <rect x="-90" y="-60" width="180" height="120" rx="3" stroke="#065f46" stroke-width="2" fill="none"/>
+    
+    <!-- Certificate Content -->
+    <rect x="-70" y="-45" width="140" height="15" rx="2" fill="#10b981" opacity="0.7"/>
+    <rect x="-70" y="-20" width="90" height="10" rx="2" fill="#10b981" opacity="0.7"/>
+    <rect x="-70" y="0" width="140" height="10" rx="2" fill="#10b981" opacity="0.7"/>
+    <rect x="-70" y="20" width="120" height="10" rx="2" fill="#10b981" opacity="0.7"/>
+    <rect x="-70" y="40" width="60" height="10" rx="2" fill="#10b981" opacity="0.7"/>
+    
+    <!-- Seal -->
+    <circle cx="60" cy="25" r="25" fill="#065f46" opacity="0.8"/>
+    <circle cx="60" cy="25" r="20" stroke="white" stroke-width="2" fill="none"/>
+    <path d="M60,15 L63,25 L73,25 L65,31 L68,41 L60,35 L52,41 L55,31 L47,25 L57,25 Z" fill="white"/>
+  </g>
+  
+  <!-- Stethoscope -->
+  <g transform="translate(250, 240) scale(0.8)">
+    <!-- Tubing -->
+    <path d="M-80,-50 C-60,-70 -20,-80 0,-60 C20,-40 30,0 50,20 C70,40 110,40 130,20" 
+          stroke="white" stroke-width="8" fill="none" stroke-linecap="round" opacity="0.9"/>
+    
+    <!-- Earpieces -->
+    <circle cx="-90" cy="-50" r="12" fill="white" opacity="0.9"/>
+    <circle cx="-90" cy="-50" r="6" fill="#065f46"/>
+    <circle cx="-70" cy="-70" r="12" fill="white" opacity="0.9"/>
+    <circle cx="-70" cy="-70" r="6" fill="#065f46"/>
+    
+    <!-- Chestpiece -->
+    <circle cx="130" cy="20" r="26" fill="white" opacity="0.9"/>
+    <circle cx="130" cy="20" r="18" fill="#10b981" opacity="0.9"/>
+  </g>
+  
+  <!-- Books -->
+  <g transform="translate(550, 220) scale(0.8)">
+    <rect x="-60" y="-50" width="120" height="20" rx="3" fill="#10b981" opacity="0.8"/>
+    <rect x="-70" y="-30" width="120" height="20" rx="3" fill="#065f46" opacity="0.8"/>
+    <rect x="-65" y="-10" width="120" height="20" rx="3" fill="#10b981" opacity="0.8"/>
+    <rect x="-75" y="10" width="120" height="20" rx="3" fill="#065f46" opacity="0.8"/>
+    <rect x="-68" y="30" width="120" height="20" rx="3" fill="#10b981" opacity="0.8"/>
+  </g>
+  
+  <!-- Abstract Wave Pattern -->
+  <path d="M0,350 C50,330 100,375 150,355 C200,335 250,380 300,360 C350,340 400,385 450,365 C500,345 550,390 600,370 C650,350 700,395 750,375 C800,355 800,400 800,400 L0,400 Z" fill="#065f46" opacity="0.7"/>
+</svg>
