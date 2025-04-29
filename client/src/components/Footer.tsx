@@ -54,7 +54,7 @@ const Footer: React.FC = () => {
             <ul className="space-y-2">
               <li className="flex items-start">
                 <i className="fas fa-map-marker-alt mt-1 mr-2"></i>
-                <span className="text-gray-400">111 Harley Street, London, W1G 6AB</span>
+                <span className="text-gray-400">167 Union Street, Oldham, OL1 1TD</span>
               </li>
               <li className="flex items-start">
                 <i className="fas fa-envelope mt-1 mr-2"></i>
@@ -62,7 +62,7 @@ const Footer: React.FC = () => {
               </li>
               <li className="flex items-start">
                 <i className="fas fa-phone-alt mt-1 mr-2"></i>
-                <a href="tel:+442071234567" className="text-gray-400 hover:text-white">+44 (0) 20 7123 4567</a>
+                <a href="tel:+443333395773" className="text-gray-400 hover:text-white">+44 (0) 333 339 5773</a>
               </li>
             </ul>
           </div>
