@@ -31,9 +31,9 @@ const HeroSection: React.FC = () => {
               <div className="text-2xl font-bold text-yellow-300">Discount Price: £750</div>
             </div>
             <p className="text-sm mb-4">Limited time offer for April 2025 bookings</p>
-            <button className="bg-yellow-500 hover:bg-yellow-600 text-blue-900 font-bold px-8 py-3 rounded-full transition-all transform hover:scale-105 cursor-pointer !rounded-button whitespace-nowrap">
+            <a href="/contact" className="bg-yellow-500 hover:bg-yellow-600 text-blue-900 font-bold px-8 py-3 rounded-full transition-all transform hover:scale-105 cursor-pointer !rounded-button whitespace-nowrap inline-block text-center">
               Secure Your Training Spot
-            </button>
+            </a>
           </div>
           
           <div className="flex items-center space-x-4">
