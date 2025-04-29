@@ -18,10 +18,10 @@ const Header: React.FC = () => {
         {/* Desktop Navigation */}
         <nav className="hidden md:flex space-x-8">
           <Link href="/" className="text-gray-700 hover:text-blue-600 font-medium">Home</Link>
-          <Link href="#course" className="text-gray-700 hover:text-blue-600 font-medium">Course</Link>
-          <Link href="#testimonials" className="text-gray-700 hover:text-blue-600 font-medium">Testimonials</Link>
-          <Link href="#faq" className="text-gray-700 hover:text-blue-600 font-medium">FAQ</Link>
-          <Link href="#contact" className="text-gray-700 hover:text-blue-600 font-medium">Contact</Link>
+          <Link href="/course" className="text-gray-700 hover:text-blue-600 font-medium">Course</Link>
+          <Link href="/blog" className="text-gray-700 hover:text-blue-600 font-medium">Blog</Link>
+          <Link href="/practice" className="text-gray-700 hover:text-blue-600 font-medium">Practice</Link>
+          <Link href="/contact" className="text-gray-700 hover:text-blue-600 font-medium">Contact</Link>
         </nav>
         
         {/* Mobile Menu Button */}
@@ -39,10 +39,10 @@ const Header: React.FC = () => {
         <div className="md:hidden bg-white shadow-lg">
           <div className="container mx-auto px-4 py-3 flex flex-col space-y-3">
             <Link href="/" className="text-gray-700 hover:text-blue-600 font-medium py-2">Home</Link>
-            <Link href="#course" className="text-gray-700 hover:text-blue-600 font-medium py-2">Course</Link>
-            <Link href="#testimonials" className="text-gray-700 hover:text-blue-600 font-medium py-2">Testimonials</Link>
-            <Link href="#faq" className="text-gray-700 hover:text-blue-600 font-medium py-2">FAQ</Link>
-            <Link href="#contact" className="text-gray-700 hover:text-blue-600 font-medium py-2">Contact</Link>
+            <Link href="/course" className="text-gray-700 hover:text-blue-600 font-medium py-2">Course</Link>
+            <Link href="/blog" className="text-gray-700 hover:text-blue-600 font-medium py-2">Blog</Link>
+            <Link href="/practice" className="text-gray-700 hover:text-blue-600 font-medium py-2">Practice</Link>
+            <Link href="/contact" className="text-gray-700 hover:text-blue-600 font-medium py-2">Contact</Link>
           </div>
         </div>
       )}

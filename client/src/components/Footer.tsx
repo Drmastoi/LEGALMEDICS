@@ -31,21 +31,21 @@ const Footer: React.FC = () => {
             <h4 className="font-bold mb-4">Quick Links</h4>
             <ul className="space-y-2">
               <li><Link href="/" className="text-gray-400 hover:text-white">Home</Link></li>
-              <li><Link href="#course" className="text-gray-400 hover:text-white">Course</Link></li>
-              <li><Link href="#testimonials" className="text-gray-400 hover:text-white">Testimonials</Link></li>
-              <li><Link href="#faq" className="text-gray-400 hover:text-white">FAQ</Link></li>
-              <li><Link href="#contact" className="text-gray-400 hover:text-white">Contact</Link></li>
+              <li><Link href="/course" className="text-gray-400 hover:text-white">Course</Link></li>
+              <li><Link href="/blog" className="text-gray-400 hover:text-white">Blog</Link></li>
+              <li><Link href="/practice" className="text-gray-400 hover:text-white">Practice</Link></li>
+              <li><Link href="/contact" className="text-gray-400 hover:text-white">Contact</Link></li>
             </ul>
           </div>
           
           <div>
             <h4 className="font-bold mb-4">Resources</h4>
             <ul className="space-y-2">
-              <li><a href="#" className="text-gray-400 hover:text-white">Blog</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-white">Free Practice</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-white">MedCo Information</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-white">Webinars</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-white">Downloads</a></li>
+              <li><Link href="/blog" className="text-gray-400 hover:text-white">Blog</Link></li>
+              <li><Link href="/practice" className="text-gray-400 hover:text-white">Free Practice</Link></li>
+              <li><Link href="/course" className="text-gray-400 hover:text-white">MedCo Information</Link></li>
+              <li><Link href="/blog" className="text-gray-400 hover:text-white">Webinars</Link></li>
+              <li><Link href="/practice" className="text-gray-400 hover:text-white">Downloads</Link></li>
             </ul>
           </div>
           
@@ -73,9 +73,9 @@ const Footer: React.FC = () => {
             &copy; {new Date().getFullYear()} LegalMedics. All rights reserved.
           </p>
           <div className="flex space-x-6">
-            <a href="#" className="text-gray-400 hover:text-white text-sm">Privacy Policy</a>
-            <a href="#" className="text-gray-400 hover:text-white text-sm">Terms of Service</a>
-            <a href="#" className="text-gray-400 hover:text-white text-sm">Cookie Policy</a>
+            <Link href="/privacy" className="text-gray-400 hover:text-white text-sm">Privacy Policy</Link>
+            <Link href="/terms" className="text-gray-400 hover:text-white text-sm">Terms of Service</Link>
+            <Link href="/cookies" className="text-gray-400 hover:text-white text-sm">Cookie Policy</Link>
           </div>
         </div>
       </div>
